@@ -1,0 +1,27 @@
+{
+  "environment": "prod",
+  "scopes": {
+    "usage:read": {
+      "roles": [
+        "team_lead",
+        "platform_admin"
+      ],
+      "group_visibility": "own_group"
+    },
+    "capabilities:write": {
+      "roles": [
+        "platform_admin"
+      ]
+    }
+  },
+  "capability_defaults": {
+    "usage-connector": {
+      "enabled_for": [
+        "it-platform",
+        "clinical-operations"
+      ]
+    },
+    "web-search": "enabled",
+    "code-execution": "disabled"
+  }
+}

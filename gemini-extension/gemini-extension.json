@@ -1,0 +1,1 @@
+{"name":"meridian-usage","version":"1.0.0","description":"Local Meridian scoped usage MCP connector","mcpServers":{"meridian-usage":{"command":"npx","args":["tsx","apps/mcp/src/server.ts"],"env":{"MERIDIAN_ENV":"prod","MERIDIAN_CALLER_USER_ID":"<directory user id>"}}}}

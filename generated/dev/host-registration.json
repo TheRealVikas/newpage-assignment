@@ -1,0 +1,13 @@
+{
+  "server_name": "meridian-usage-dev",
+  "transport": "stdio",
+  "command": "npx",
+  "args": [
+    "tsx",
+    "apps/mcp/src/server.ts"
+  ],
+  "environment": {
+    "MERIDIAN_ENV": "dev",
+    "MERIDIAN_CALLER_USER_ID": "<directory user id>"
+  }
+}

@@ -1,0 +1,1 @@
+{"mcpServers":{"meridian-usage":{"command":"npx","args":["tsx","apps/mcp/src/server.ts"],"cwd":"/absolute/path/to/meridian-usage-connector","env":{"MERIDIAN_ENV":"prod","MERIDIAN_CALLER_USER_ID":"user_E7691888F28227066DD2FB86","MERIDIAN_DB_PATH":"data/meridian.db"}}}}
